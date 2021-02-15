@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html id="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kiosk Voting</title>
+    <link href="/CSS/choice.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="/IMG/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="logotext"><img src="/IMG/logo.png" style="width: 10%;"><h1 style="margin-left: 12%;margin-top: -7%;font-family: 'Roboto Condensed';">JADA KIOSK SYSTEM</h1></div>    <div><h2 class="center" id="toplabel">Fill Out Your Information</h2></div>
+    <div class="app-container" id="container">
+        <form class="formclass">
+            <label for="fname"><strong><h2>First name:</h2></strong></label>
+            <input type="text" id="fname" name="fname" class="input"><br>
+            <label for="lname"><strong><h2>Last name:</h2></strong></label>
+            <input type="text" id="lname" name="lname" class="input">
+            <label for="lname"><strong><h2>Date of Birth (MM/DD/YY):</h2></strong></label>
+            <input type="text" id="dateofbirth" name="dateofbirth" class="input">
+        </form>
+        <form class="formclass">
+            <label for="lname"><strong><h2>Address 1:</h2></strong></label>
+            <input type="text" id="add1" name="add1" class="input">
+            <label for="lname"><strong><h2>Address 2:</h2></strong></label>
+            <input type="text" id="add2" name="add2" class="input">
+            <br>
+            <div class="dropdown">
+                <br><br><br>
+                <label class="dropbtnlanguage" id="planguage">Preferred Languages:</label>
+                <div class="dropdown-content">
+                  <a onclick="chose('English')">English</a>
+                  <a onclick="chose('中文')">中文</a>
+                  <a onclick="chose('Español')">Español</a>
+                  <a onclick="chose('Français')">Français</a>
+                  <a onclick="chose('عربي')">عربي</a>
+                </div>
+              </div>
+                
+        </form>
+        <div class="thediv">
+          <button class="dropbtn" onclick="submitform()">Submit</button>
+        </div>
+        
+    <div>
+    <div id="redbox"></div>
+    <script src="/JS/choice.js"></script>
+  </body>
+</html>

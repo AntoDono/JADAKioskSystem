@@ -1,0 +1,72 @@
+*{
+  /* border: solid 1px red; */
+  font-family: barlow;
+}
+
+.center{
+  text-align: center;
+}
+
+.app-container{
+  display: flex;
+  justify-content: center;
+}
+.app{
+  padding: 10% 4%;
+  margin-top: 5%;
+  margin-left:5%;
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  background-color: #003884;
+  transition: 0.5s all ease;
+  color:white;
+  font-size: 40px;
+  z-index: 10;
+
+}
+
+.app:hover{
+  cursor: pointer;
+  padding: 11% 6%;
+  transition: 0.5s all ease;
+}
+
+#container > div:first-child{
+  margin-left: 0%;
+}
+
+#animation{
+  position: absolute;
+  top:0%;
+  left:0%;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background-color: #F96B13;
+}
+
+
+#html{
+  height:99vh;
+  border: solid 2px #b33939;
+}
+#redbox{
+  position: absolute;
+  top:60%;
+  left:0%;
+  background-color: #b33939;
+  width: 100%;
+  height: 40%;
+}
+
+#toplabel{
+  font-size: 50px;
+}
+.logotext{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding:10px;
+  font-family: 'Roboto Condensed'
+}

@@ -1,0 +1,159 @@
+*{
+    /* border: solid 1px red; */
+    font-family: barlow;
+  }
+  .input{
+      outline: none;
+      border: none;
+      font-size: 30px;
+      text-decoration: none;
+      border-bottom: 3px solid gray;
+      width: 100%;
+      transition: 0.5s all ease;
+  }
+  .input[type=text]:focus {
+    border: none;
+    border-bottom: 3px solid black;
+    transition: 0.5s all ease;
+  }
+  .center{
+    text-align: center;
+  }
+  
+  .app-container{
+    display: flex;
+    justify-content: center;
+  }
+  .app{
+    padding: 10% 4%;
+    margin-top: 5%;
+    margin-left:5%;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    background-color: #003884;
+    transition: 0.5s all ease;
+    color:white;
+    font-size: 40px;
+    z-index: 10;
+  
+  }
+  
+  .app:hover{
+    cursor: pointer;
+    padding: 11% 6%;
+    transition: 0.5s all ease;
+  }
+  
+  #container > div:first-child{
+    margin-left: 0%;
+  }
+  
+  #animation{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: #F96B13;
+  }
+  
+  
+  #html{
+    height:99vh;
+    border: solid 2px #b33939;
+  }
+  #redbox{
+    position: absolute;
+    top:70%;
+    left:0%;
+    background-color: #b33939;
+    width: 100%;
+    height: 40%;
+  }
+  .formclass{
+      padding: 2% 5%;
+  }
+
+  .dropbtn {
+    background-color: #269ade;
+    color: white;
+    padding: 16px 90%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .dropbtnlanguage {
+    background-color: #269ade;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1; cursor: pointer;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  margin-top: 7%;
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #047ec4;
+}
+
+.submitbutton{
+  background-color: #269ade;
+  color: white;
+  padding: 16px 90%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.thediv{
+  position:absolute;
+  top: 55%;
+  left: 46%;
+}
+#toplabel{
+  font-size: 50px;
+}
+.logotext{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding:10px;
+  font-family: 'Roboto Condensed'
+}
